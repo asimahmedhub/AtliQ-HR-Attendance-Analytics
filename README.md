@@ -30,16 +30,20 @@ The analysis was performed entirely in **Python (Pandas, Matplotlib)** to demons
 
 AtliQ-HR-Attendance-Analytics/
 │
+
 ├── data/
 │ └── Attendance-Sheet-2022-2023.xlsx
 │
+
 ├── notebooks/
 │ └── AtliQ_HR_Attendance_Analytics.ipynb
 │
+
 ├── images/
 │ ├── banner-image.png
 │ └── kpi-dashboard.png
 │
+
 └── README.md
 
 
@@ -55,76 +59,7 @@ AtliQ-HR-Attendance-Analytics/
 ✔ Mapped and cleaned attendance codes  
 ✔ Added month & week features for advanced analysis  
 
-Key libraries:
 
-```python
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-📈 Monthly Attendance KPIs (Apr–Jun 2022)
-KPIs computed:
-
-Attendance % (Present + WFH)
-
-WFH %
-
-WFO %
-
-Sick Leave %
-
-Paid Leave %
-
-Highlights:
-
-WFH increased from 9.11% → 14.33%
-
-Sick Leave peaked in May (1.97%)
-
-WFO remains dominant (85%+) across all months
-
-📊 Monthly KPI Dashboard
-<p align="center"> <img src="images/kpi-dashboard.png" alt="Monthly KPI Dashboard" width="90%" /> </p>
-🧠 Key Insights (Executive Summary)
-✔ WFH is rising month-over-month
-Trend grew from 9.11% (Apr) to 14.33% (Jun) — indicating stronger hybrid behavior.
-
-✔ May had the highest Sick Leave %
-Potential seasonal or workload-related factors.
-
-✔ On-site presence stays strong
-WFO maintains 85%+ share of working days.
-
-✔ Attendance stability is consistent
-No major declines or disruptions across the period.
-
-✔ Early retention indicators
-A small set of employees show:
-
-higher absenteeism
-
-elevated sick/paid leave usage
-
-Useful for HR intervention.
-
-🧮 3-Month Summary (Overall KPIs)
-KPI	Value
-Attendance %	91.70%
-WFH %	10.28%
-WFO %	81.42%
-Sick Leave %	1.29%
-Paid Leave %	3.95%
-
-▶️ How to Run This Project
-Clone the repository
-
-Install required Python libraries
-
-Launch Jupyter Notebook
-
-Open:
-
-Copy code
-notebooks/AtliQ_HR_Attendance_Analytics.ipynb
 
 
 ## 👨‍💻 Developed By
