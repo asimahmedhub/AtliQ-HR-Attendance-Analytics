@@ -14,7 +14,9 @@ This project analyzes **3 months of employee attendance data** for **AtliQ Techn
 
 The analysis was performed entirely in **Python (Pandas, Matplotlib)** to demonstrate end-to-end data preparation, cleaning, KPI generation, and visualization skills.
 
+
 ---
+
 
 ## 🚀 Project Highlights
 
@@ -24,7 +26,9 @@ The analysis was performed entirely in **Python (Pandas, Matplotlib)** to demons
 - Developed a full **Monthly KPI Dashboard** using Python  
 - Delivered actionable HR insights from Python analysis only
 
+
 ---
+
 
 ## 🗂️ Repository Structure
 
@@ -113,7 +117,9 @@ elevated sick/paid leave usage
 
 Useful for HR intervention.
 
+
 ---
+
 
 ## 🧮 3-Month Summary (Overall KPIs)
 KPI	Value
@@ -122,6 +128,7 @@ WFH %	10.28%
 WFO %	81.42%
 Sick Leave %	1.29%
 Paid Leave %
+
 
 ---
 
