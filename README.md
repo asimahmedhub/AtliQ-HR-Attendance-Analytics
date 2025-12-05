@@ -133,9 +133,13 @@ Useful for HR intervention.
 ## 🧮 3-Month Summary (Overall KPIs)
 KPI	Value
 Attendance %	91.70%
+
 WFH %	10.28%
+
 WFO %	81.42%
+
 Sick Leave %	1.29%
+
 Paid Leave %
 
 
