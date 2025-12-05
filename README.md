@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="banner-image.png" alt="AtliQ HR Attendance Analytics Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/asimahmedhub/AtliQ-HR-Attendance-Analytics/main/images/banner-image.png" width="100%" />
 </p>
+
 
 # 📊 AtliQ HR Attendance Analytics  
 ### Python-Based Attendance Insights (Apr–Jun 2022)
