@@ -97,7 +97,12 @@ WFO remains dominant (85%+) across all months
 
 ## 📊 Monthly KPI Dashboard
 <p align="center"> <img src="images/kpi-dashboard.png" alt="Monthly KPI Dashboard" width="90%" /> </p>
-🧠 Key Insights (Executive Summary)
+
+
+---
+
+
+## 🧠 Key Insights (Executive Summary)
 
 ✔ WFH is rising month-over-month
 Trend grew from 9.11% (Apr) to 14.33% (Jun) — indicating stronger hybrid behavior.
