@@ -18,6 +18,7 @@ This project analyzes 3 months of employee attendance data for AtliQ Technologie
 📊 Quarterly summary dashboard
 
 
+
 ## The analysis was performed entirely using Python (Pandas, Matplotlib) to demonstrate:
 
 ✔ End-to-end data cleaning
@@ -29,6 +30,7 @@ This project analyzes 3 months of employee attendance data for AtliQ Technologie
 📁 Project Structure
 📦 AtliQ-HR-Attendance-Analytics
 │
+
 ├── 01_AtliQ_HR_Attendance_EDA.ipynb                 → Data cleaning & preparation
 
 ├── 02_AtliQ_HR_Attendance_Visualization.ipynb       → KPI charts & insights
@@ -44,20 +46,32 @@ This project analyzes 3 months of employee attendance data for AtliQ Technologie
 
 ## 🔧 Technologies Used
 Category	Tools
+
 Language	Python
+
 Libraries	Pandas, NumPy, Matplotlib
+
 Environment	Jupyter Notebook
+
 Techniques	Data Cleaning, KPI Engineering, Visualization
+
 
 
 ## 📌 Key KPIs Generated
 Monthly KPIs
+
 KPI	Description
+
 Attendance %	Present + Work From Home
+
 WFH %	Hybrid work trend
+
 WFO %	Office attendance trend
+
 Sick Leave %	Health leave trend
+
 Paid Leave %	Scheduled leave impact
+
 
 
 # 📊 KPI Dashboard (Apr–Jun 2022)
@@ -67,6 +81,7 @@ Paid Leave %	Scheduled leave impact
 Example placeholder:
 
 <p align="center"> <img src="kpi_dashboard.png" width="80%"> </p>
+
 
 
 ## 📈 Monthly Visualizations
@@ -85,25 +100,26 @@ Breakdown of presence, leave types, and work modes.
 All charts are included in the visualization notebook.
 
 
+
 ## 🧹 Data Preparation Summary
 
 This project included full data-wrangling steps:
 
-Removed unwanted formatting from Excel sheets
+- Removed unwanted formatting from Excel sheets
 
-Standardized column names across all months
+- Standardized column names across all months
 
-Combined April, May, and June sheets into one dataset
+- Combined April, May, and June sheets into one dataset
 
-Normalized attendance codes (P, WO, WFH, SL, PL, etc.)
+- Normalized attendance codes (P, WO, WFH, SL, PL, etc.)
 
-Converted date columns to proper datetime
+- Converted date columns to proper datetime
 
-Melted daily columns into a tidy long format
+- Melted daily columns into a tidy long format
 
-Added month & week fields for analysis
+- Added month & week fields for analysis
 
-Computed working day percentages and all KPIs
+- Computed working day percentages and all KPIs
 
 
 
