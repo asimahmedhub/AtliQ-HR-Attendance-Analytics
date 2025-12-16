@@ -1,153 +1,108 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/asimahmedhub/AtliQ-HR-Attendance-Analytics/main/images/banner-image.png" width="100%" />
-</p>
+📊 AtliQ HR Attendance Analytics
+<p align="center"> <img src="https://raw.githubusercontent.com/asimahmedhub/AtliQ-HR-Attendance-Analytics/main/Phoenix_10_A_clean_modern_2D_digital_banner_for_a_data_analyti_3.jpg" alt="AtliQ HR Attendance Analytics Banner" width="100%"> </p>
+🧠 Python-Based Attendance Insights (Apr–Jun 2022)
 
+This project analyzes 3 months of employee attendance data for AtliQ Technologies, delivering insights on:
 
-# 📊 AtliQ HR Attendance Analytics  
-### Python-Based Attendance Insights (Apr–Jun 2022)
+🟢 Attendance patterns
 
-This project analyzes **3 months of employee attendance data** for **AtliQ Technologies**, focusing on:
+🏠 WFH vs WFO trends
 
-- Attendance patterns  
-- WFH vs WFO trends  
-- Sick leave behavior  
-- Early retention-risk signals  
+🤒 Sick leave behavior
 
-The analysis was performed entirely in **Python (Pandas, Matplotlib)** to demonstrate end-to-end data preparation, cleaning, KPI generation, and visualization skills.
+⚠️ Potential early retention-risk signals
 
+📈 Month-wise KPI tracking
 
----
+📊 Quarterly summary dashboard
 
+The analysis was performed entirely using Python (Pandas, Matplotlib) to demonstrate:
 
-## 🚀 Project Highlights
+✔ End-to-end data cleaning
+✔ Transformation & preparation
+✔ KPI generation
+✔ Visualization
+✔ Insight extraction
 
-- Transformed raw Excel attendance sheets (wide format) into a **clean long-format dataset**  
-- Standardized 12+ attendance codes (WFH, WO, SL, PL, ML, LWP…)  
-- Built automated **KPI engines** for monthly and overall metrics  
-- Developed a full **Monthly KPI Dashboard** using Python  
-- Delivered actionable HR insights from Python analysis only
-
-
----
-
-
-## 🗂️ Repository Structure
-
-AtliQ-HR-Attendance-Analytics/
+📁 Project Structure
+📦 AtliQ-HR-Attendance-Analytics
 │
+├── 01_AtliQ_HR_Attendance_EDA.ipynb                 → Data cleaning & preparation
+├── 02_AtliQ_HR_Attendance_Visualization.ipynb       → KPI charts & insights
+├── attendance_data.xlsx                              → Raw dataset
+├── Phoenix_10_A_clean_modern_banner.jpg             → Project banner
+├── utils.py                                          → Helper functions
+└── README.md                                         → Documentation
 
-├── data/
-│ └── Attendance-Sheet-2022-2023.xlsx
-│
+🔧 Technologies Used
+Category	Tools
+Language	Python
+Libraries	Pandas, NumPy, Matplotlib
+Environment	Jupyter Notebook
+Techniques	Data Cleaning, KPI Engineering, Visualization
+📌 Key KPIs Generated
+Monthly KPIs
+KPI	Description
+Attendance %	Present + Work From Home
+WFH %	Hybrid work trend
+WFO %	Office attendance trend
+Sick Leave %	Health leave trend
+Paid Leave %	Scheduled leave impact
+📊 KPI Dashboard (Apr–Jun 2022)
 
-├── notebooks/
-│ └── AtliQ_HR_Attendance_Analytics.ipynb
-│
+(Add your exported KPI dashboard image here once ready)
 
-├── images/
-│ ├── banner-image.png
-│ └── kpi-dashboard.png
-│
+Example placeholder:
 
-└── README.md
+<p align="center"> <img src="kpi_dashboard.png" width="80%"> </p>
+📈 Monthly Visualizations
+✔ WFH vs WFO % by Month
 
+Shows shift toward increasing hybrid work.
 
----
+✔ Sick Leave % by Month
 
+Highlights spikes that may indicate burnout or seasonal illness.
 
-## 🧼 Data Preparation (Python Workflow)
+✔ Attendance Behavior
 
-✔ Loaded and combined multiple Excel sheets (Apr, May, Jun)  
-✔ Cleaned & standardized column names  
-✔ Converted 90+ date columns to datetime  
-✔ Melted wide-format matrix into **22,000+ daily attendance records**  
-✔ Mapped and cleaned attendance codes  
-✔ Added month & week features for advanced analysis  
+Breakdown of presence, leave types, and work modes.
 
+All charts are included in the visualization notebook.
 
----
+🧹 Data Preparation Summary
 
+This project included full data-wrangling steps:
 
-## 📈 Monthly Attendance KPIs (Apr–Jun 2022)
+Removed unwanted formatting from Excel sheets
 
-KPIs computed:
+Standardized column names across all months
 
-Attendance % (Present + WFH)
+Combined April, May, and June sheets into one dataset
 
-WFH %
+Normalized attendance codes (P, WO, WFH, SL, PL, etc.)
 
-WFO %
+Converted date columns to proper datetime
 
-Sick Leave %
+Melted daily columns into a tidy long format
 
-Paid Leave %
+Added month & week fields for analysis
 
+Computed working day percentages and all KPIs
 
----
+📌 3-Month Summary (Quarterly Insights)
 
+Some example insights:
 
-## Highlights:
+WFH increased month-over-month, reaching its highest in June
 
+Sick Leave peaked in May, indicating possible workload stress
 
-WFH increased from 9.11% → 14.33%
+Average attendance remained above 90%, showing consistent workforce reliability
 
-Sick Leave peaked in May (1.97%)
+Paid Leave increased in June, aligning with mid-year leave cycles
 
-WFO remains dominant (85%+) across all months
+🧑‍💻 Developed By
 
-
-## 📊 Monthly KPI Dashboard
-<p align="center"> <img src="images/kpi-dashboard.png" alt="Monthly KPI Dashboard" width="90%" /> </p>
-
-
----
-
-
-## 🧠 Key Insights (Executive Summary)
-
-✔ WFH is rising month-over-month
-Trend grew from 9.11% (Apr) to 14.33% (Jun) — indicating stronger hybrid behavior.
-
-✔ May had the highest Sick Leave %
-Potential seasonal or workload-related factors.
-
-✔ On-site presence stays strong
-WFO maintains 85%+ share of working days.
-
-✔ Attendance stability is consistent
-No major declines or disruptions across the period.
-
-✔ Early retention indicators
-A small set of employees show:
-
-higher absenteeism
-
-elevated sick/paid leave usage
-
-Useful for HR intervention.
-
-
----
-
-
-## 🧮 3-Month Summary (Overall KPIs)
-KPI	Value
-Attendance %	91.70%
-
-WFH %	10.28%
-
-WFO %	81.42%
-
-Sick Leave %	1.29%
-
-Paid Leave %
-
-
----
-
-
-## 👨‍💻 Developed By
 Asim Ahmed — Data Analyst
-
-If you found this project helpful, feel free to ⭐ star the repo or connect with me on LinkedIn.
-
+Python • Data Cleaning • Attendance Analytics • Visualization
