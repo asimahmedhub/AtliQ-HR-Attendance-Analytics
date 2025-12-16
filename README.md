@@ -28,21 +28,21 @@ This project analyzes 3 months of employee attendance data for AtliQ Technologie
 
 ✔ Insights & visualization
 
---
+---
 
 ## 🧰 Technologies Used
 
-Category	Tools
+Category:	Tools
 
-Language	Python
+Language:  Python
 
-Libraries	Pandas, NumPy, Matplotlib
+Libraries: 	Pandas, NumPy, Matplotlib
 
-Environment	Jupyter Notebook
+Environment: 	Jupyter Notebook
 
 Techniques	Data Cleaning, KPI Engineering, Data Visualization
 
---
+---
 
 ## 📌 Key KPIs Generated
 
@@ -60,7 +60,7 @@ Sick Leave %	 :  Health-related absence trend
 
 Paid Leave %	 :  Scheduled leave impact
 
---
+---
 
 📈 Sample Visualizations
 
@@ -71,13 +71,12 @@ Paid Leave %	 :  Scheduled leave impact
 
 
 🤒 Sick Leave Trend
-
 📌 Displays employee wellness patterns and rise in health-related absences.
 
 
 🧮 Summary Attendance KPI Dashboard
 
---
+---
 
 ## Displays overall 3-month averages for:
 
@@ -93,7 +92,7 @@ Paid Leave %
 
 ✔ Helps HR quickly understand workforce discipline & reliability.
 
---
+---
 
 ## 🛠 Project Workflow
 
@@ -112,7 +111,7 @@ Step	Description
 
 7. Insight Building	Identified patterns & HR-relevant findings
 
---
+---
  
 ## 💡 Insights Overview
 
@@ -126,7 +125,7 @@ Here are examples of insights revealed:
 
 📉 Attendance dipped slightly, driven mostly by paid leave
 
---
+---
 
 ## 📂 Repository Structure
 AtliQ-HR-Attendance-Analytics/
@@ -157,7 +156,7 @@ AtliQ-HR-Attendance-Analytics/
 
 └── Banner.jpg
 
---
+---
 
 ## 👨‍💻 Developed By
 
