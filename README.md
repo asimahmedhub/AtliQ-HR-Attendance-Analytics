@@ -18,7 +18,7 @@ This project analyzes 3 months of employee attendance data for AtliQ Technologie
 
 ---
 
-The full analysis was performed using ## Python (Pandas, NumPy, Matplotlib) ## to demonstrate end-to-end:
+The full analysis was performed using Python (Pandas, NumPy, Matplotlib) to demonstrate end-to-end:
 
 ✔ Data cleaning
 
