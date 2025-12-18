@@ -32,15 +32,13 @@ This project analyzes 3 months of employee attendance data for AtliQ Technologie
 
 ## 🧰 Technologies Used
 
-Category:	Tools
+Programming Language: Python
 
-Language:  Python
+Libraries: Pandas, NumPy, Matplotlib
 
-Libraries: 	Pandas, NumPy, Matplotlib
+Development Environment: Jupyter Notebook
 
-Environment: 	Jupyter Notebook
-
-Techniques	Data Cleaning, KPI Engineering, Data Visualization
+Techniques Applied: Data Cleaning & Preprocessing, Data Reshaping, KPI Engineering, Exploratory Data Analysis (EDA), Data Visualization
 
 ---
 
@@ -48,55 +46,40 @@ Techniques	Data Cleaning, KPI Engineering, Data Visualization
 
 📅 Monthly KPIs
 
-KPI	Description
+Attendance % (Present + Work From Home)
+Measures overall employee attendance reliability.
 
-Attendance %	 :  Present + Work From Home
+WFH % (Work From Home)
+Indicates the trend of hybrid/remote work adoption.
 
-WFH %	        :  Hybrid work trend across 3 months
-
-WFO %	        :  Office attendance behavior
-
-Sick Leave %	 :  Health-related absence trend
-
-Paid Leave %	 :  Scheduled leave impact
-
----
-
-📈 Sample Visualizations
-
-🏠 WFH vs WFO Trend
-
-(Generated using Matplotlib)
-📌 Shows the shift from WFO to WFH month over month.
-
-
-🤒 Sick Leave Trend
-📌 Displays employee wellness patterns and rise in health-related absences.
-
-
-🧮 Summary Attendance KPI Dashboard
-
----
-
-## Displays overall 3-month averages for:
-
-Attendance %
-
-WFH %
-
-WFO %
+WFO % (Work From Office)
+Shows office attendance behavior across months.
 
 Sick Leave %
+Reflects employee health and potential workload stress.
 
 Paid Leave %
+Represents scheduled leave impact on workforce availability.
 
-✔ Helps HR quickly understand workforce discipline & reliability.
+---
+
+## 🧮 3-Month KPI Summary (Overall)
+
+Average Attendance %: 91.70%
+
+Average WFH %: 10.28%
+
+Average WFO %: 81.42%
+
+Average Sick Leave %: 1.29%
+
+Average Paid Leave %: 3.95%
 
 ---
 
 ## 🛠 Project Workflow
 
-Step	Description
+Steps	Description
 1. Data Import	Loaded April, May, June sheets from Excel
 
 2. Cleaning & Standardization	Fixed column names, removed noise, unified date formats
