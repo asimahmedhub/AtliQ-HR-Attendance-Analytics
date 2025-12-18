@@ -38,7 +38,7 @@ Libraries: Pandas, NumPy, Matplotlib
 
 Development Environment: Jupyter Notebook
 
-Techniques Applied: Data Cleaning & Preprocessing, Data Reshaping, KPI Engineering, Exploratory Data Analysis (EDA), Data Visualization
+Techniques Applied: Data Cleaning, KPI Engineering, Data Visualization
 
 ---
 
