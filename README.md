@@ -1,11 +1,7 @@
 📊 AtliQ HR Attendance Analytics
 <p align="center">
-  <img 
-    src="https://raw.githubusercontent.com/asimahmedhub/AtliQ-HR-Attendance-Analytics/main/Phoenix_10_A_clean_modern_2D_digital_banner_for_a_data_analyti_3.jpg"
-    style="display:block; margin:auto; max-width:600px;"
-  />
+  <img src="AtliQ_HR_Attendance_Banner_README.jpg" width="800">
 </p>
-
 
 
 ## 📊 Python-Based HR Attendance Insights (Apr–Jun 2022)
