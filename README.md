@@ -2,7 +2,7 @@
 <p align="center">
   <img 
     src="https://raw.githubusercontent.com/asimahmedhub/AtliQ-HR-Attendance-Analytics/main/Phoenix_10_A_clean_modern_2D_digital_banner_for_a_data_analyti_3.jpg"
-    style="max-width:700px; width:100%; height:auto;"
+    style="display:block; margin:auto; max-width:600px;"
   />
 </p>
 
