@@ -3,7 +3,7 @@ Python-Based Attendance Insights (Apr–Jun 2022)
 
 <p align="center"> <img src="AtliQ_HR_Attendance_Banner_README.jpg" width="800"> </p>
 
-Developed by Asim Ahmed — Data Analyst
+
 
 
 ## 📊 Python-Based HR Attendance Insights (Apr–Jun 2022)
