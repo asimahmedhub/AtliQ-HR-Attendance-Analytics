@@ -114,9 +114,11 @@ Here are examples of insights revealed:
 ---
 
 ## 📂 Repository Structure
-AtliQ-HR-Attendance-Analytics/
+AtliQ-HR-Attendance-Analytics
+/
 │
-├── notebooks/
+├── notebooks
+/
 │   └── AtliQ_HR_Attendance_Analysis.ipynb
 │
 
