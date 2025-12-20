@@ -141,6 +141,13 @@ AtliQ-HR-Attendance-Analytics/
 
 └── requirements.txt
 
+---
+
+## 🧠 Code Structure
+
+- `notebooks/` → Exploratory analysis & KPI derivation
+- `scripts/` → Modular Python code for cleaning, KPI calculation, and visualization
+- `assets/` → Charts and visual assets used in the analysis
 
 ---
 
