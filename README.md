@@ -33,36 +33,27 @@ The full analysis was performed using Python (Pandas, NumPy, Matplotlib) to demo
 
 ---
 
-## 🧰 Technologies Used
+## 🛠 Technologies Used
 
-Programming Language: Python
-
-Libraries: Pandas, NumPy, Matplotlib
-
-Development Environment: Jupyter Notebook
-
-Techniques Applied: Data Cleaning, KPI Engineering, Data Visualization
+- **Language:** Python  
+- **Libraries:** Pandas, NumPy, Matplotlib  
+- **Environment:** Jupyter Notebook  
+- **Techniques:**  
+  - Data Cleaning & Transformation  
+  - KPI Engineering  
+  - Time-Series Analysis  
+  - Data Visualization  
 
 ---
 
 ## 📌 Key KPIs Generated
 
-📅 Monthly KPIs
-
-Attendance % (Present + Work From Home)
-Measures overall employee attendance reliability.
-
-WFH % (Work From Home)
-Indicates the trend of hybrid/remote work adoption.
-
-WFO % (Work From Office)
-Shows office attendance behavior across months.
-
-Sick Leave %
-Reflects employee health and potential workload stress.
-
-Paid Leave %
-Represents scheduled leave impact on workforce availability.
+### Monthly KPIs
+- **Attendance %** (Present + Work From Home)
+- **WFH %** — Hybrid work adoption trend
+- **WFO %** — Office attendance trend
+- **Sick Leave %** — Health-related leave behavior
+- **Paid Leave %** — Scheduled leave impact
 
 ---
 
@@ -110,6 +101,24 @@ Here are examples of insights revealed:
 🤒 Sick leave spiked in May, suggesting wellness issues or seasonal patterns
 
 📉 Attendance dipped slightly, driven mostly by paid leave
+
+---
+
+## 📈 Visualizations & Insights
+
+### 1️⃣ WFH vs WFO % by Month
+<img src="assets/charts/wfh_wfo_monthly.png" width="500"/>
+
+**Insight:**  
+A clear upward trend in **WFH adoption** is observed from April to June, while WFO gradually declines — indicating increasing hybrid flexibility.
+
+---
+
+### 2️⃣ Sick Leave % by Month
+<img src="assets/charts/sick_leave_monthly.png" width="500"/>
+
+**Insight:**  
+Sick leave peaks in May and stabilizes in June, which could indicate seasonal or workload-related factors.
 
 ---
 
