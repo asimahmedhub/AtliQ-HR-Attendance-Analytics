@@ -160,9 +160,6 @@ AtliQ-HR-Attendance-Analytics/
 
 ---
 
-
----
-
 ## 🧩 Python Code Organization
 
 - **`data_cleaning.py`**  
@@ -187,12 +184,12 @@ AtliQ-HR-Attendance-Analytics/
    
 2. Install dependencies
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 
 3. Open the notebook
 
-jupyter notebook notebooks/AtliQ_HR_Attendance_Analysis.ipynb
+  jupyter notebook notebooks/AtliQ_HR_Attendance_Analysis.ipynb
 
 ---
 
