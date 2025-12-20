@@ -114,12 +114,13 @@ Here are examples of insights revealed:
 ---
 
 ## 📂 Repository Structure
-AtliQ-HR-Attendance-Analytics/│
+AtliQ-HR-Attendance-Analytics/
+│
 
 ├── notebooks/
-│   
-└── AtliQ_HR_Attendance_Analysis.ipynb
+│   └── AtliQ_HR_Attendance_Analysis.ipynb
 │
+
 ├── scripts/
 
 │  ├── data_cleaning.py
