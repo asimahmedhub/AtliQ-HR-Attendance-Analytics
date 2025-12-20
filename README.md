@@ -114,38 +114,27 @@ Here are examples of insights revealed:
 ---
 
 ## 📂 Repository Structure
-AtliQ-HR-Attendance-Analytics/
-│
+AtliQ-HR-Attendance-Analytics/│
 
 ├── notebooks/
 │   
 └── AtliQ_HR_Attendance_Analysis.ipynb
 │
-
 ├── scripts/
 
-│  
-├── data_cleaning.py
-│  
-├── kpi_calculations.py
-│  
-├── visualizations.py
-│  
-└── utils.py
+│  ├── data_cleaning.py
+│  ├── kpi_calculations.py
+│  ├── visualizations.py
+│  └── utils.py
 
 │
+├── assets/│   
 
-├── assets/
-│   
 ├── AtliQ_HR_Attendance_Banner_README.jpg
-│   
-└── charts/
-│      
-├── wfh_wfo_monthly.png
-│     
-└── sick_leave_monthly.png
+│   └── charts/
+│      ├── wfh_wfo_monthly.png
+│     └── sick_leave_monthly.png
 │
-
 
 ├── README.md
 
