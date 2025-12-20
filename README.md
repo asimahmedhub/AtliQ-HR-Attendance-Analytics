@@ -116,31 +116,24 @@ Here are examples of insights revealed:
 ## 📂 Repository Structure
 AtliQ-HR-Attendance-Analytics/
 │
-
-├── data/
-│   ├── Attendance_Apr_2022.xlsx
-
-│   ├── Attendance_May_2022.xlsx
-
-│   ├── Attendance_Jun_2022.xlsx
-│
-
 ├── notebooks/
-│   └── HR_Attendance_Analysis.ipynb
+│   └── AtliQ_HR_Attendance_Analysis.ipynb
 │
-
-├── images/
-
-│   ├── wfh_wfo_trend.png
-
-│   ├── sick_leave_trend.png
-
-│   ├── kpi_dashboard.png
-
+├── scripts/
+│   ├── data_cleaning.py
+│   ├── kpi_calculations.py
+│   ├── visualizations.py
+│   └── utils.py
+│
+├── assets/
+│   ├── AtliQ_HR_Attendance_Banner_README.jpg
+│   └── charts/
+│       ├── wfh_wfo_monthly.png
+│       └── sick_leave_monthly.png
 │
 ├── README.md
+└── requirements.txt
 
-└── Banner.jpg
 
 ---
 
