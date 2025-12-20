@@ -160,6 +160,42 @@ AtliQ-HR-Attendance-Analytics/
 
 ---
 
+
+---
+
+## 🧩 Python Code Organization
+
+- **`data_cleaning.py`**  
+  Handles column standardization, date parsing, reshaping (melt), and status mapping.
+
+- **`kpi_calculations.py`**  
+  Contains reusable functions for calculating attendance, WFH, WFO, sick leave, and paid leave KPIs.
+
+- **`visualizations.py`**  
+  Generates all charts used in the analysis using Matplotlib.
+
+- **`utils.py`**  
+  Helper functions to keep code modular and clean.
+
+---
+
+## 🚀 How to Run This Project
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/asimahmedhub/AtliQ-HR-Attendance-Analytics.git
+   
+2. Install dependencies
+
+pip install -r requirements.txt
+
+
+3. Open the notebook
+
+jupyter notebook notebooks/AtliQ_HR_Attendance_Analysis.ipynb
+
+---
+
 ## 👨‍💻 Developed By
 
 Asim Ahmed — Data Analyst
