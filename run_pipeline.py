@@ -2,14 +2,6 @@
 AtliQ HR Attendance Analytics (Apr–Jun 2022)
 Run Pipeline Script
 
-This script demonstrates how to use the modular code inside /scripts:
-- data_cleaning.py
-- kpi_calculations.py
-- visualizations.py
-
-Note:
-You must update EXCEL_FILE and SHEET_NAMES to match your local file path and sheet names.
-"""
 
 from pathlib import Path
 
@@ -33,7 +25,7 @@ from scripts.visualizations import (
 # =========================
 # 1) CONFIG (EDIT THESE)
 # =========================
-EXCEL_FILE = Path("attendance_data.xlsx")  # <-- change to your real file name/path
+EXCEL_FILE = Path("C:\Users\Asim\Desktop\Attendance-Sheet-2022-2023.xlsx")
 SHEET_NAMES = {
     "2022-04": "Apr 2022",
     "2022-05": "May 2022",
