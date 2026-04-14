@@ -116,7 +116,7 @@ Here are examples of insights revealed:
 ## 📈 Visualizations & Insights
 
 ### 1️⃣ WFH vs WFO % by Month
-<img src="assets/charts/wfh_wfo_monthly.png" width="500"/>
+![WFH vs WFO](assets/charts/wfh_wfo.png)
 
 **Insight:**  
 A clear upward trend in **WFH adoption** is observed from April to June, while WFO gradually declines — indicating increasing hybrid flexibility.
