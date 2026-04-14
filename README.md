@@ -178,20 +178,41 @@ AtliQ-HR-Attendance-Analytics/
 
 ## 🚀 How to Run This Project
 
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/asimahmedhub/AtliQ-HR-Attendance-Analytics.git
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/asimahmedhub/AtliQ-HR-Attendance-Analytics.git
+cd AtliQ-HR-Attendance-Analytics
+
    
 2. Install dependencies
 
    pip install -r requirements.txt
 
 
-3. Open the notebook
+3. Update the Excel file path inside run_pipeline.py
 
-  jupyter notebook notebooks/AtliQ_HR_Attendance_Analysis.ipynb
+  EXCEL_FILE = Path(r"C:\Users\Asim\Desktop\Attendance-Sheet-2022-2023.xlsx")
 
+
+4. Run the pipeline
+
+python run_pipeline.py
+
+
+5. explore the notebook version
+jupyter notebook
+
+
+### Then:
+- Scroll down
+- Click **Commit changes**
+- Use this commit message:
+```text
+Add how to run section to README
 ---
+
 
 ## 👨‍💻 Developed By
 
