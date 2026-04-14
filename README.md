@@ -4,6 +4,15 @@
 
 
 
+## ✨ Project Highlights
+
+- Converted raw multi-sheet Excel attendance logs into an analysis-ready dataset  
+- Built modular Python scripts for data cleaning, KPI calculations, and visualizations  
+- Generated monthly insights on attendance, WFH/WFO trends, and sick leave patterns  
+- Structured the project for reproducibility using a pipeline script (`run_pipeline.py`)  
+- Designed as a portfolio-ready project demonstrating real-world data analytics workflow  
+
+
 
 ## 📊 Python-Based HR Attendance Insights (Apr–Jun 2022)
 
