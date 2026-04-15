@@ -127,11 +127,12 @@ This indicates a gradual organizational shift toward hybrid work flexibility, wi
 
 ---
 
-### 2️⃣ Sick Leave % by Month
-<img src="assets/charts/sick_leave_monthly.png" width="500"/>
+### 2️⃣ WFH Trend Over Time
+![WFH Trend](assets/charts/wfh_trend.png)
 
-**Insight:**  
-Sick leave peaks in May and stabilizes in June, which could indicate seasonal or workload-related factors.
+**Insight:** 
+
+WFH adoption shows a gradual upward trend over time, with noticeable day-to-day fluctuations. The increase becomes more consistent toward June, indicating growing acceptance of remote work.
 
 ---
 
