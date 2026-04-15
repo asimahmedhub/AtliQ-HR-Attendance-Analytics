@@ -1,16 +1,7 @@
 ## 📊 AtliQ HR Attendance Analytics
 
 <p align="center"> <img src="AtliQ_HR_Attendance_Banner_README.jpg" width="800"> </p>
-
-
-
-## ✨ Project Highlights
-
-- Converted raw multi-sheet Excel attendance logs into an analysis-ready dataset  
-- Built modular Python scripts for data cleaning, KPI calculations, and visualizations  
-- Generated monthly insights on attendance, WFH/WFO trends, and sick leave patterns  
-- Structured the project for reproducibility using a pipeline script (`run_pipeline.py`)  
-- Designed as a portfolio-ready project demonstrating real-world data analytics workflow  
+ 
 
 
 
@@ -18,15 +9,11 @@
 
 This project analyzes 3 months of employee attendance data for AtliQ Technologies, delivering insights into:
 
-📅 Monthly attendance patterns
-
-🏠 WFH vs 🏢 WFO behavior
-
-🤒 Sick leave trends
-
-🎯 Productivity & leave impact
-
-📉 Early warning indicators for employee disengagement
+📅 Monthly attendance patterns  
+🏠 WFH vs 🏢 WFO behavior and trends  
+📈 Work-from-home adoption over time  
+📉 Workforce absenteeism and leave distribution  
+🎯 Data-driven insights into workforce flexibility and engagement
 
 ---
 
@@ -120,9 +107,7 @@ Here are examples of insights revealed:
  
 📊 Insight:
 
-Work-from-Home (WFH) adoption shows a steady upward trend from April to June, increasing from approximately 9% to 15%. Meanwhile, Work-from-Office (WFO) declines correspondingly.
-
-This indicates a gradual organizational shift toward hybrid work flexibility, with employees increasingly adopting remote work over time.
+Work-from-Home (WFH) adoption increases steadily from April to June, indicating a shift toward hybrid work flexibility.
 
 ---
 
@@ -131,16 +116,16 @@ This indicates a gradual organizational shift toward hybrid work flexibility, wi
 
 📈 Insight: 
 
-WFH adoption shows a gradual upward trend over time, with noticeable day-to-day fluctuations. The increase becomes more consistent toward June, indicating growing acceptance of remote work.
+WFH usage shows consistent growth with daily fluctuations, becoming more prominent toward June.
 
 ---
 
-### 2️⃣ Workforce Absenteeism Analysis
+### 3️⃣ Workforce Absenteeism Analysis
 ![Leave Distribution](assets/charts/leave_distribution.png)
 
 📉 Insight:
 
-Sick Leave (SL) accounts for the largest proportion of absences, followed by Privilege Leave (PL) and Casual Leave (BL). This suggests that health-related absences are the primary driver of workforce unavailability.
+Sick Leave (SL) represents the largest share of absences, highlighting health-related factors as the primary driver of employee absence.
 
 ---
 
