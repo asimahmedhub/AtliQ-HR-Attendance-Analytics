@@ -135,6 +135,15 @@ WFH adoption shows a gradual upward trend over time, with noticeable day-to-day 
 
 ---
 
+### 2️⃣ Workforce Absenteeism Analysis
+![Leave Distribution](assets/charts/leave_distribution.png)
+
+📉 Insight:
+
+Sick Leave (SL) accounts for the largest proportion of absences, followed by Privilege Leave (PL) and Casual Leave (BL). This suggests that health-related absences are the primary driver of workforce unavailability.
+
+---
+
 ## 📂 Repository Structure
 AtliQ-HR-Attendance-Analytics/
 │
