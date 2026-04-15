@@ -117,8 +117,7 @@ Here are examples of insights revealed:
 
 ### 1️⃣ WFH vs WFO % by Month
 ![WFH vs WFO](assets/charts/wfh_wfo.png)
-
-**Insight:**  
+ 
 📊 Insight:
 
 Work-from-Home (WFH) adoption shows a steady upward trend from April to June, increasing from approximately 9% to 15%. Meanwhile, Work-from-Office (WFO) declines correspondingly.
@@ -130,7 +129,7 @@ This indicates a gradual organizational shift toward hybrid work flexibility, wi
 ### 2️⃣ WFH Trend Over Time
 ![WFH Trend](assets/charts/wfh_trend.png)
 
-**Insight:** 
+📈 Insight: 
 
 WFH adoption shows a gradual upward trend over time, with noticeable day-to-day fluctuations. The increase becomes more consistent toward June, indicating growing acceptance of remote work.
 
