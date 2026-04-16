@@ -103,7 +103,9 @@ Here are examples of insights revealed:
 ## 📈 Visualizations & Insights
 
 ### 1️⃣ WFH vs WFO % by Month
-![WFH vs WFO](assets/charts/wfh_wfo.png)
+<p align="center">
+  <img src="assets/charts/wfh_wfo.png" width="650">
+</p>
  
 📊 Insight:
 
@@ -112,7 +114,9 @@ Work-from-Home (WFH) adoption increases steadily from April to June, indicating 
 ---
 
 ### 2️⃣ WFH Trend Over Time
-![WFH Trend](assets/charts/wfh_trend.png)
+<p align="center">
+  <img src="assets/charts/wfh_trend.png" width="650">
+</p>
 
 📈 Insight: 
 
