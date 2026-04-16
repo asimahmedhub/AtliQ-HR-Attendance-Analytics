@@ -187,28 +187,29 @@ AtliQ-HR-Attendance-Analytics/
 git clone https://github.com/asimahmedhub/AtliQ-HR-Attendance-Analytics.git
 cd AtliQ-HR-Attendance-Analytics
 
+---
    
 2. Install dependencies
 pip install -r requirements.txt
 
+---
 
 3. Update the Excel file path inside run_pipeline.py
 
   EXCEL_FILE = Path(r"C:\Users\Asim\Desktop\Attendance-Sheet-2022-2023.xlsx")
 
+---
 
 4. Run the pipeline
 
 python run_pipeline.py
 
+---
 
 5. explore the notebook version
 jupyter notebook
 
-
-
 ---
-
 
 ## 🎯 Business Recommendations
 
@@ -216,9 +217,7 @@ jupyter notebook
 - Monitor sick leave trends to identify potential health risks  
 - Use attendance insights for workforce planning and resource allocation  
 
-
 ---
-
 
 ## 👨‍💻 Developed By
 
