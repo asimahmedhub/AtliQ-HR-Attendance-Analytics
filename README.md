@@ -212,7 +212,8 @@ python run_pipeline.py
 ```bash
 jupyter notebook
 
----
+```
+
 
 ## 🎯 Business Recommendations
 
