@@ -121,7 +121,9 @@ WFH usage shows consistent growth with daily fluctuations, becoming more promine
 ---
 
 ### 3️⃣ Workforce Absenteeism Analysis
-![Leave Distribution](assets/charts/leave_distribution.png)
+<p align="center">
+  <img src="assets/charts/leave_distribution.png" width="350">
+</p>
 
 📉 Insight:
 
