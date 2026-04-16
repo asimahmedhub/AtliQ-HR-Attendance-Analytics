@@ -131,27 +131,29 @@ Sick Leave (SL) represents the largest share of absences, highlighting health-re
 
 ## 📂 Repository Structure
 
+<pre>
 AtliQ-HR-Attendance-Analytics/
 │
 ├── notebooks/
-│ └── AtliQ_HR_Attendance_Analysis.ipynb
+│   └── AtliQ_HR_Attendance_Analysis.ipynb
 │
 ├── scripts/
-│ ├── data_cleaning.py
-│ ├── kpi_calculations.py
-│ ├── visualizations.py
-│ └── utils.py
+│   ├── data_cleaning.py
+│   ├── kpi_calculations.py
+│   ├── visualizations.py
+│   └── utils.py
 │
 ├── assets/
-│ ├── AtliQ_HR_Attendance_Banner_README.jpg
-│ └── charts/
-│ ├── wfh_wfo.png
-│ ├── wfh_trend.png
-│ └── leave_distribution.png
+│   ├── AtliQ_HR_Attendance_Banner_README.jpg
+│   └── charts/
+│       ├── wfh_wfo.png
+│       ├── wfh_trend.png
+│       └── leave_distribution.png
 │
 ├── run_pipeline.py
 ├── requirements.txt
 └── README.md
+</pre>
 
 ---
 
