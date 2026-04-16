@@ -130,6 +130,7 @@ Sick Leave (SL) represents the largest share of absences, highlighting health-re
 
 
 ## 📂 Repository Structure
+
 AtliQ-HR-Attendance-Analytics/
 │
 ├── notebooks/
