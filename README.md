@@ -215,6 +215,8 @@ jupyter notebook
 ```
 
 
+---
+
 ## 🎯 Business Recommendations
 
 - Encourage flexible work policies to support increasing WFH adoption  
