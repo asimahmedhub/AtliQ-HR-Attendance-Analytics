@@ -183,7 +183,6 @@ AtliQ-HR-Attendance-Analytics/
 
 ## 🚀 How to Run This Project
 
-
 1. Clone the repository
 
 ```bash
