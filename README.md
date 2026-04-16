@@ -53,17 +53,14 @@ The full analysis was performed using Python (Pandas, NumPy, Matplotlib) to demo
 
 ---
 
+
 ## 🧮 3-Month KPI Summary (Overall)
 
-Average Attendance %: 91.70%
-
-Average WFH %: 10.28%
-
-Average WFO %: 81.42%
-
-Average Sick Leave %: 1.29%
-
-Average Paid Leave %: 3.95%
+- **Average Attendance:** 91.7%  
+- **Average WFH:** 10.3%  
+- **Average WFO:** 81.4%  
+- **Average Sick Leave:** 1.3%  
+- **Average Paid Leave:** 4.0%  
 
 ---
 
@@ -88,15 +85,11 @@ Steps	Description
  
 ## 💡 Insights Overview
 
-Here are examples of insights revealed:
 
-📈 WFH increased month-by-month, indicating rising hybrid adoption
-
-🏢 WFO steadily decreased, hinting at shifting workforce preference
-
-🤒 Sick leave spiked in May, suggesting wellness issues or seasonal patterns
-
-📉 Attendance dipped slightly, driven mostly by paid leave
+- 📈 WFH adoption increased steadily, indicating a shift toward hybrid work  
+- 🏢 WFO declined correspondingly, reflecting changing workplace preferences  
+- 🤒 Sick leave peaked in May, suggesting potential seasonal or health-related factors  
+- 📉 Slight attendance dip observed, primarily driven by paid leave usage  
 
 ---
 
@@ -135,33 +128,29 @@ Sick Leave (SL) represents the largest share of absences, highlighting health-re
 
 ---
 
+
 ## 📂 Repository Structure
 AtliQ-HR-Attendance-Analytics/
 │
-
 ├── notebooks/
-│   └── AtliQ_HR_Attendance_Analysis.ipynb
+│ └── AtliQ_HR_Attendance_Analysis.ipynb
 │
-
 ├── scripts/
-
-│  ├── data_cleaning.py
-│  ├── kpi_calculations.py
-│  ├── visualizations.py
-│  └── utils.py
-
+│ ├── data_cleaning.py
+│ ├── kpi_calculations.py
+│ ├── visualizations.py
+│ └── utils.py
 │
-├── assets/│   
-
-├── AtliQ_HR_Attendance_Banner_README.jpg
-│   └── charts/
-│      ├── wfh_wfo_monthly.png
-│     └── sick_leave_monthly.png
+├── assets/
+│ ├── AtliQ_HR_Attendance_Banner_README.jpg
+│ └── charts/
+│ ├── wfh_wfo.png
+│ ├── wfh_trend.png
+│ └── leave_distribution.png
 │
-
-├── README.md
-
-└── requirements.txt
+├── run_pipeline.py
+├── requirements.txt
+└── README.md
 
 ---
 
@@ -200,8 +189,7 @@ cd AtliQ-HR-Attendance-Analytics
 
    
 2. Install dependencies
-
-   pip install -r requirements.txt
+pip install -r requirements.txt
 
 
 3. Update the Excel file path inside run_pipeline.py
@@ -218,12 +206,17 @@ python run_pipeline.py
 jupyter notebook
 
 
-### Then:
-- Scroll down
-- Click **Commit changes**
-- Use this commit message:
-```text
-Add how to run section to README
+
+---
+
+
+## 🎯 Business Recommendations
+
+- Encourage flexible work policies to support increasing WFH adoption  
+- Monitor sick leave trends to identify potential health risks  
+- Use attendance insights for workforce planning and resource allocation  
+
+
 ---
 
 
