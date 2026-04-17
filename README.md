@@ -1,3 +1,9 @@
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+---
+
 ## 📊 AtliQ HR Attendance Analytics
 
 <p align="center"> <img src="AtliQ_HR_Attendance_Banner_README.jpg" width="800"> </p>
@@ -5,7 +11,7 @@
 
 
 
-## 📊 Python-Based HR Attendance Insights (Apr–Jun 2022)
+## 📊 End-to-End HR Attendance Analytics (Python Project)
 
 This project analyzes 3 months of employee attendance data for AtliQ Technologies, delivering insights into:
 
@@ -85,11 +91,18 @@ Steps	Description
  
 ## 💡 Insights Overview
 
-
 - 📈 WFH adoption increased steadily, indicating a shift toward hybrid work  
 - 🏢 WFO declined correspondingly, reflecting changing workplace preferences  
 - 🤒 Sick leave peaked in May, suggesting potential seasonal or health-related factors  
 - 📉 Slight attendance dip observed, primarily driven by paid leave usage  
+
+---
+
+## 📸 Dashboard Preview
+
+<p align="center">
+  <img src="assets/charts/wfh_wfo.png" width="600">
+</p>
 
 ---
 
@@ -227,10 +240,11 @@ jupyter notebook
 
 ## 👨‍💻 Developed By
 
-Asim Ahmed — Data Analyst
+Asim Ahmed  
+📊 Data Analyst | Aspiring Data Engineer  
 
 📧 Email: asim.atia@gmail.com
 
 🔗 GitHub: https://github.com/asimahmedhub
 
-🔗 LinkedIn: (Add your link)
+🔗 LinkedIn: www.linkedin.com/in/asimahmedio
