@@ -4,34 +4,39 @@
 
 ---
 
-## 📊 AtliQ HR Attendance Analytics
+## 📊 End-to-End HR Attendance Analytics (Python Project)
+📊 Python | Pandas | Data Analytics | HR Insights
 
-<p align="center"> <img src="AtliQ_HR_Attendance_Banner_README.jpg" width="800"> </p>
+<p align="center">
+  <img src="AtliQ_HR_Attendance_Banner_README.jpg" width="800">
+</p>
  
 
 
 
-## 📊 End-to-End HR Attendance Analytics (Python Project)
+## 📌 Project Overview
 
-This project analyzes 3 months of employee attendance data for AtliQ Technologies, delivering insights into:
+This project analyzes employee attendance data for AtliQ Technologies over a 3-month period (April–June 2022).
 
-📅 Monthly attendance patterns  
-🏠 WFH vs 🏢 WFO behavior and trends  
-📈 Work-from-home adoption over time  
-📉 Workforce absenteeism and leave distribution  
-🎯 Data-driven insights into workforce flexibility and engagement
+The goal is to uncover workforce behavior patterns, measure hybrid work adoption, and provide data-driven insights to support HR decision-making.
+
+Key focus areas include:
+- Attendance performance tracking  
+- Work-from-Home (WFH) vs Work-from-Office (WFO) trends  
+- Leave behavior analysis (Sick Leave & Paid Leave)  
+- Workforce engagement insights  
+
+The project is built as an end-to-end Python analytics pipeline, covering data cleaning, transformation, KPI engineering, and visualization.
 
 ---
 
-The full analysis was performed using Python (Pandas, NumPy, Matplotlib) to demonstrate end-to-end:
+## 🚀 Project Highlights
 
-✔ Data cleaning
-
-✔ Data transformation
-
-✔ KPI engineering
-
-✔ Insights & visualization
+- 📊 Processed and analyzed **20,000+ attendance records**
+- 🔄 Built an **end-to-end data pipeline** (Excel → Python → Insights)
+- 📈 Identified **increasing WFH adoption trend (~50% growth)**
+- 🧠 Generated **actionable HR insights for workforce planning**
+- 🛠 Designed **modular, production-style Python code structure**
 
 ---
 
@@ -72,20 +77,13 @@ The full analysis was performed using Python (Pandas, NumPy, Matplotlib) to demo
 
 ## 🛠 Project Workflow
 
-Steps	Description
-1. Data Import	Loaded April, May, June sheets from Excel
-
-2. Cleaning & Standardization	Fixed column names, removed noise, unified date formats
-
-3. Reshaping Data	Converted daily attendance columns → long-format dataset
-
-4. Status Mapping	Replaced codes (P, WFH, SL, etc.) with meaningful labels
-
-5. KPI Calculation	Monthly & overall KPIs computed dynamically
-
-6. Visualizations	Trend charts & summary dashboards
-
-7. Insight Building	Identified patterns & HR-relevant findings
+1. **Data Import** — Loaded April, May, June sheets from Excel  
+2. **Cleaning & Standardization** — Fixed column names and formats  
+3. **Reshaping Data** — Converted wide → long format  
+4. **Status Mapping** — Replaced codes (P, WFH, SL) with labels  
+5. **KPI Calculation** — Computed monthly and overall metrics  
+6. **Visualization** — Generated trend charts  
+7. **Insight Generation** — Derived HR insights  
 
 ---
  
@@ -210,7 +208,7 @@ pip install -r requirements.txt
 ```
 
 ### 3. Update the Excel file path inside run_pipeline.py
-```bash
+```python
  EXCEL_FILE = Path(r"C:\Users\Asim\Desktop\Attendance-Sheet-2022-2023.xlsx")
 
 ```
@@ -221,7 +219,7 @@ python run_pipeline.py
 
 ```
 
-### 5. explore the notebook version
+### 5. Explore the notebook version
 ```bash
 jupyter notebook
 
@@ -247,4 +245,4 @@ Asim Ahmed
 
 🔗 GitHub: https://github.com/asimahmedhub
 
-🔗 LinkedIn: www.linkedin.com/in/asimahmedio
+🔗 LinkedIn: https://www.linkedin.com/in/asimahmedio
