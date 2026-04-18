@@ -146,6 +146,9 @@ Sick Leave (SL) represents the largest share of absences, highlighting health-re
 <pre>
 AtliQ-HR-Attendance-Analytics/
 │
+├── data/
+│   └── attendance_data.xlsx
+│
 ├── notebooks/
 │   └── AtliQ_HR_Attendance_Analysis.ipynb
 │
@@ -210,7 +213,7 @@ pip install -r requirements.txt
 
 ### 3. Update the Excel file path inside run_pipeline.py
 ```python
- EXCEL_FILE = Path(r"C:\Users\Asim\Desktop\Attendance-Sheet-2022-2023.xlsx")
+ EXCEL_FILE = Path("data/attendance_data.xlsx")
 
 ```
 
