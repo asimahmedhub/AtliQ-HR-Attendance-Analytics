@@ -252,6 +252,6 @@ jupyter notebook
 ---
 
 ## 🤝 Connect With Me
-🌐 LinkedIn: https://www.linkedin.com/in/asimahmedio
-💻 GitHub: https://github.com/asimahmedhub
+🌐 LinkedIn: Asim Ahmed
+💻 GitHub: asimahmedhub
 ✉️ Email: asim.atia@gmail.com
