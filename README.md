@@ -16,10 +16,6 @@
 
 An end-to-end Python analytics project focused on workforce attendance analysis, hybrid work trends, and HR KPI monitoring using data cleaning, transformation, and visualization techniques.
 
-<p align="center">
-  <img src="AtliQ_HR_Attendance_Banner_README.jpg" width="850">
-</p>
-
 ---
 
 ## 📌 Problem Statement
