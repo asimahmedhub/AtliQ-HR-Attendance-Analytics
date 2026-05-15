@@ -1,142 +1,153 @@
-![Python](https://img.shields.io/badge/Python-3.10-blue)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-
----
-
-## 📊 End-to-End HR Attendance Analytics (Python Project)
-📊 Python | Pandas | Data Analytics | HR Insights
+<p align="center">
+  <img src="https://img.shields.io/badge/LANGUAGE-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/DOMAIN-HR%20Analytics-7C3AED?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/WORKFLOW-Data%20Pipeline-F97316?style=for-the-badge" />
+</p>
 
 <p align="center">
-  <img src="AtliQ_HR_Attendance_Banner_README.jpg" width="800">
+  <img src="https://img.shields.io/badge/LIBRARY-pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/VISUALIZATION-Matplotlib-2563EB?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/STATUS-Completed-16A34A?style=for-the-badge" />
 </p>
- 
-
 
 ---
 
-## 📌 Project Overview
+# 📊 AtliQ HR Attendance Analytics
 
-This project analyzes employee attendance data for AtliQ Technologies over a 3-month period (April–June 2022).
+An end-to-end Python analytics project focused on workforce attendance analysis, hybrid work trends, and HR KPI monitoring using data cleaning, transformation, and visualization techniques.
 
-The goal is to uncover workforce behavior patterns, measure hybrid work adoption, and provide data-driven insights to support HR decision-making.
+<p align="center">
+  <img src="AtliQ_HR_Attendance_Banner_README.jpg" width="850">
+</p>
 
-Key focus areas include:
-- Attendance performance tracking  
-- Work-from-Home (WFH) vs Work-from-Office (WFO) trends  
-- Leave behavior analysis (Sick Leave & Paid Leave)  
-- Workforce engagement insights  
+---
 
-The project is built as an end-to-end Python analytics pipeline, covering data cleaning, transformation, KPI engineering, and visualization.
+## 📌 Problem Statement
+
+Organizations operating in hybrid work environments require visibility into employee attendance behavior, work-from-home adoption, leave trends, and workforce engagement patterns.
+
+AtliQ Technologies needed a data-driven analytics solution capable of transforming raw attendance records into actionable workforce insights to support HR planning and operational decision-making.
+
+---
+
+## 🎯 Project Objective
+
+Design and develop a Python-based HR analytics workflow to:
+
+- Analyze employee attendance trends  
+- Monitor Work-from-Home (WFH) adoption patterns  
+- Evaluate leave utilization and absenteeism trends  
+- Generate KPI-driven workforce insights  
+- Support data-driven HR planning and reporting  
+
+---
+
+## ⚡ Solution Overview
+
+Built an end-to-end attendance analytics pipeline using Python and Pandas to process and analyze over 20,000 attendance records across a 3-month period (April–June 2022).
+
+The workflow includes:
+
+- Data cleaning and standardization  
+- KPI engineering and trend analysis  
+- Attendance and leave behavior analysis  
+- Workforce insight generation  
+- Data visualization using Matplotlib  
 
 ---
 
 ## 🚀 Project Highlights
 
-- 📊 Processed and analyzed **20,000+ attendance records**
-- 🔄 Built an **end-to-end data pipeline** (Excel → Python → Insights)
-- 📈 Identified **increasing WFH adoption trend (~50% growth)**
-- 🧠 Generated **actionable HR insights for workforce planning**
-- 🛠 Designed **modular, production-style Python code structure**
+- Processed and analyzed **20,000+ attendance records**
+- Built an end-to-end analytics pipeline (**Excel → Python → Insights**)
+- Identified increasing hybrid work adoption trends
+- Generated workforce KPIs for HR reporting
+- Designed modular Python scripts for scalable analysis workflows
 
 ---
 
-## 🛠 Technologies Used
+## 🛠 Tools & Technologies
 
-- **Language:** Python  
-- **Libraries:** Pandas, NumPy, Matplotlib  
-- **Environment:** Jupyter Notebook  
-- **Techniques:**  
-  - Data Cleaning & Transformation  
-  - KPI Engineering  
-  - Time-Series Analysis  
-  - Data Visualization  
+- **Python** – Data analysis and workflow automation  
+- **Pandas** – Data cleaning and transformation  
+- **NumPy** – Numerical processing  
+- **Matplotlib** – Data visualization and charting  
+- **Excel** – Source data management  
+- **Jupyter Notebook** – Exploratory analysis and development  
 
 ---
 
 ## 📌 Key KPIs Generated
 
-### Monthly KPIs
-- **Attendance %** (Present + Work From Home)
-- **WFH %** — Hybrid work adoption trend
-- **WFO %** — Office attendance trend
-- **Sick Leave %** — Health-related leave behavior
-- **Paid Leave %** — Scheduled leave impact
+### Workforce Metrics
+- Attendance %
+- Work From Home (WFH) %
+- Work From Office (WFO) %
+- Sick Leave %
+- Paid Leave %
 
 ---
 
+## 📊 KPI Summary (3-Month Average)
 
-## 🧮 3-Month KPI Summary (Overall)
-
-- **Average Attendance:** 91.7%  
-- **Average WFH:** 10.3%  
-- **Average WFO:** 81.4%  
-- **Average Sick Leave:** 1.3%  
-- **Average Paid Leave:** 4.0%  
-
----
-
-## 🛠 Project Workflow
-
-1. **Data Import** — Loaded April, May, June sheets from Excel  
-2. **Cleaning & Standardization** — Fixed column names and formats  
-3. **Reshaping Data** — Converted wide → long format  
-4. **Status Mapping** — Replaced codes (P, WFH, SL) with labels  
-5. **KPI Calculation** — Computed monthly and overall metrics  
-6. **Visualization** — Generated trend charts  
-7. **Insight Generation** — Derived HR insights  
-
----
- 
-## 💡 Insights Overview
-
-- 📈 WFH adoption increased steadily, indicating a shift toward hybrid work  
-- 🏢 WFO declined correspondingly, reflecting changing workplace preferences  
-- 🤒 Sick leave peaked in May, suggesting potential seasonal or health-related factors  
-- 📉 Slight attendance dip observed, primarily driven by paid leave usage  
+| KPI | Value |
+|---|---|
+| Attendance Rate | 91.7% |
+| WFH Rate | 10.3% |
+| WFO Rate | 81.4% |
+| Sick Leave Rate | 1.3% |
+| Paid Leave Rate | 4.0% |
 
 ---
 
-## 📸 Dashboard Preview
+## 🛠 Analytics Workflow
 
+1. Imported attendance records from Excel  
+2. Cleaned and standardized raw datasets  
+3. Reshaped attendance data for analysis  
+4. Mapped attendance and leave categories  
+5. Calculated workforce KPIs  
+6. Generated trend visualizations  
+7. Derived HR and workforce insights  
+
+---
+
+## 💡 Key Business Insights
+
+### Hybrid Work Trends
+- WFH adoption increased steadily from April to June, indicating growing hybrid work flexibility.
+
+### Attendance Behavior
+- Slight attendance decline was primarily associated with increased paid leave usage.
+
+### Leave Analysis
+- Sick leave peaked during May, potentially reflecting seasonal or workforce health factors.
+
+### Workforce Planning
+- Attendance insights can support staffing optimization and workforce planning decisions.
+
+---
+
+## 📈 Visualizations
+
+### WFH vs WFO Analysis
 <p align="center">
-  <img src="assets/charts/wfh_wfo.png" width="600">
+  <img src="assets/charts/wfh_wfo.png" width="700">
 </p>
 
 ---
 
-## 📈 Visualizations & Insights
-
-### 1️⃣ WFH vs WFO % by Month
+### WFH Trend Over Time
 <p align="center">
-  <img src="assets/charts/wfh_wfo.png" width="650">
+  <img src="assets/charts/wfh_trend.png" width="700">
 </p>
- 
-📊 Insight:
-
-Work-from-Home (WFH) adoption increases steadily from April to June, indicating a shift toward hybrid work flexibility.
 
 ---
 
-### 2️⃣ WFH Trend Over Time
+### Workforce Absenteeism Analysis
 <p align="center">
-  <img src="assets/charts/wfh_trend.png" width="650">
+  <img src="assets/charts/leave_distribution.png" width="400">
 </p>
-
-📈 Insight: 
-
-WFH usage shows consistent growth with daily fluctuations, becoming more prominent toward June.
-
----
-
-### 3️⃣ Workforce Absenteeism Analysis
-<p align="center">
-  <img src="assets/charts/leave_distribution.png" width="350">
-</p>
-
-📉 Insight:
-
-Sick Leave (SL) represents the largest share of absences, highlighting health-related factors as the primary driver of employee absence.
 
 ---
 
@@ -240,13 +251,7 @@ jupyter notebook
 
 ---
 
-## 👨‍💻 Developed By
-
-Asim Ahmed  
-📊 Data Analyst | Aspiring Data Engineer  
-
-📧 Email: asim.atia@gmail.com
-
-🔗 GitHub: https://github.com/asimahmedhub
-
-🔗 LinkedIn: https://www.linkedin.com/in/asimahmedio
+## 🤝 Connect With Me
+🌐 LinkedIn: https://www.linkedin.com/in/asimahmedio
+💻 GitHub: https://github.com/asimahmedhub
+✉️ Email: asim.atia@gmail.com
